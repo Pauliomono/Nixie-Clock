@@ -12,6 +12,10 @@ Features include:
 
 Uses a Teensy 4.1 microcontroller, a custom PCB and K155ID1 ICs to drive 6 Nixie tubes. An off the shelf boost converter is used to generate the 170V required to drive the Nixie tubes. 
 
+Future plans to create wood enclosure for the clock.
+
+Known Issues - LEDs lighting under each tube does not function due to a PCB design flaw.
+
 
 
 
