@@ -1,0 +1,196 @@
+{
+  "uuid": "1235234cef0978ceed4ae8ceeae847d4",
+  "path": "Offline/Nixie%20Clock",
+  "name": "Nixie Clock",
+  "content": "",
+  "created_at": "2020-12-24 14:52:42",
+  "updated_at": "2021-01-08 17:50:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "11da23a2d3374eaaf835c07b07c9291c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "34f4f577e41445f6abf2f3476805cb21": 6,
+        "e2b85bc3c4344d5e8c5660580dc500bc": 6,
+        "4a52e8d5749741319739aa214bdc17de": 12,
+        "2d29a8de995747d9974a543fa2ff1f30": 1,
+        "d9f80639cd26411da439bfccf2a96413": 6,
+        "e12c5fced0524439b357e5b9e4e0f04f": 1,
+        "c21602b7651d4e9399e6693d394249b1": 3,
+        "3608cd05c3534ca09bedf0afa9321986": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "POWER IN",
+          1,
+          "HDR-1X2/2.54",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "POWER SUPPLY",
+            "BOM_Supplier Part": "C49661",
+            "puuid": "f61994d539564aabbacb96cb1ba011be",
+            "uuid": "2d29a8de995747d9974a543fa2ff1f30"
+          }
+        ],
+        [
+          "15",
+          6,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R7,R11,R10,R9,R8,R12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C410695",
+            "BOM_Manufacturer": "TyoHM",
+            "BOM_Manufacturer Part": "RN 1/4W 10K F T/B A1",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "4a52e8d5749741319739aa214bdc17de"
+          }
+        ],
+        [
+          "10K",
+          6,
+          "RES-TH_BD2.4-L6.3-P10.30-D0.6",
+          "R2,R3,R4,R5,R6,R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C410695",
+            "BOM_Manufacturer": "TyoHM",
+            "BOM_Manufacturer Part": "RN 1/4W 10K F T/B A1",
+            "puuid": "2915f1f0a54941d7b912decfe617b47f",
+            "uuid": "4a52e8d5749741319739aa214bdc17de"
+          }
+        ],
+        [
+          "IN-14",
+          6,
+          "IN14 PCB LIB",
+          "T6,T2,T5,T4,T1,T3",
+          {
+            "BOM_Manufacturer Part": "IN-14",
+            "puuid": "2bb982e84d344e158a118a878268427b",
+            "uuid": "34f4f577e41445f6abf2f3476805cb21"
+          }
+        ],
+        [
+          "1025",
+          1,
+          "BAT-TH_KEYSTONE-1025",
+          "BT2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C238060",
+            "BOM_Manufacturer": "Keystone",
+            "BOM_Manufacturer Part": "1025",
+            "puuid": "a9856074382b4fbfaebf02b803039439",
+            "uuid": "3608cd05c3534ca09bedf0afa9321986"
+          }
+        ],
+        [
+          "SKHHLSA010",
+          3,
+          "KEY-TH_4P-SKHHLQA010",
+          "SW3,SW2,SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C127486",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "SKHHLSA010",
+            "puuid": "1db5d1a204e743649dac0c41aaf8dca5",
+            "uuid": "c21602b7651d4e9399e6693d394249b1"
+          }
+        ],
+        [
+          "Led",
+          6,
+          "LED THROUGH HOLE",
+          "D5,D6,D1,D3,D2,D4",
+          {
+            "BOM_Supplier": "RS-Online",
+            "BOM_Supplier Part": "769-3618",
+            "BOM_Manufacturer Part": "",
+            "puuid": "45298da2efdb4d57ba53775a361dc286",
+            "uuid": "d9f80639cd26411da439bfccf2a96413"
+          }
+        ],
+        [
+          "K155ID1",
+          6,
+          "DIP16 00",
+          "U4,U5,U3,U1,U6,U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "6f41a60702aa4afeb63207c4aca8da19",
+            "uuid": "e2b85bc3c4344d5e8c5660580dc500bc"
+          }
+        ],
+        [
+          "Teensy 4.1",
+          1,
+          "TEENSY 4.1",
+          "U7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8b7cb02c0588417cb3be15e3efab3464",
+            "uuid": "e12c5fced0524439b357e5b9e4e0f04f"
+          }
+        ]
+      ],
+      "updateTime": 1610077419,
+      "createTime": 1609022054,
+      "histories": [],
+      "created_at": "2020-12-26 17:34:14",
+      "updated_at": "2021-01-07 22:43:39"
+    },
+    {
+      "uuid": "e37991551d489ba20a6118038a189758",
+      "puuid": "1235234cef0978ceed4ae8ceeae847d4",
+      "title": "PCB_2020-12-26_23-37-30",
+      "filename": "PCB_2020-12-26_23-37-30.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f61994d539564aabbacb96cb1ba011be": 1,
+        "8b7cb02c0588417cb3be15e3efab3464": 1,
+        "2915f1f0a54941d7b912decfe617b47f": 12,
+        "45298da2efdb4d57ba53775a361dc286": 6,
+        "2bb982e84d344e158a118a878268427b": 6,
+        "6f41a60702aa4afeb63207c4aca8da19": 6,
+        "a9856074382b4fbfaebf02b803039439": 1,
+        "1db5d1a204e743649dac0c41aaf8dca5": 3
+      },
+      "BOM": [],
+      "updateTime": 1610146213,
+      "createTime": 1609043850,
+      "histories": [],
+      "created_at": "2020-12-26 23:37:30",
+      "updated_at": "2021-01-08 17:50:13"
+    }
+  ],
+  "sort": [],
+  "title": "Nixie Clock",
+  "foldername": "Nixie Clock",
+  "schfilename": "Nixie Clock.json",
+  "schfilemtime": 1610077419691
+}
